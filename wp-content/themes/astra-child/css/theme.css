@@ -94,6 +94,14 @@
     align-items: center;
 }
 
+/*style de la courbe de la page d'acceuil avec une bordure*/
+.courbe1 {
+    position: relative;
+    height: 50%;
+    border-bottom-left-radius: 50% 14%;
+    border-bottom-right-radius: 50% 14%;
+}
+
 /*******NOUS RENCONTRER**********/
 
 /*bouton envoyer*/
