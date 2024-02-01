@@ -167,3 +167,54 @@
     border-radius: 7px;
     box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
 }
+
+/**********COMMANDER*******/
+
+
+/*Mise en forme du formulaire de commande*/
+
+/* Cache les flèches par défaut */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.commander {
+    color: #FFF !important;
+    text-align: center;
+    font-family: Syne !important;
+    font-size: 38px !important;
+    font-style: normal !important;
+    font-weight: 800 !important;
+    padding-top: 69px;
+    padding-bottom: 69px;
+    margin: 0px !important;
+}
+
+.title-command h2 {
+    color: #FFF !important;
+    font-family: Syne !important;
+    font-size: 30px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important;
+}
+
+.div3 h2 {
+    color: #FFF !important;
+    font-family: Syne !important;
+    font-size: 30px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important;
+}
+
+.div4 h2 {
+    color: #FFF !important;
+    font-family: Syne !important;
+    font-size: 30px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important;
+}
