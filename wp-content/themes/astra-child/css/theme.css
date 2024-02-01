@@ -29,3 +29,32 @@
 #masthead .ast-container {
     padding-right: 0px;
 }
+
+/*donne le style pour les liens du menu*/
+.menu-link {
+    color: #000 !important;
+    font-family: Syne !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+}
+
+/*donne le style pour les liens du menu en hover et en visited*/
+.menu-link:hover {
+    color: #000 !important;
+    font-family: Syne !important;
+    font-size: 13px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important;
+}
+
+.menu-link:visited {
+    color: #000 !important;
+    font-family: Syne !important;
+    font-size: 15px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important;
+}
