@@ -96,25 +96,6 @@
 
 /*******NOUS RENCONTRER**********/
 
-/*image étoile*/
-
-.elementor-12 .elementor-element.elementor-element-6eb9444 {
-    --e-con-grid-template-columns: 25% auto !important;
-}
-
-.div-title {
-    position: relative;
-}
-
-.img-etoile {
-    position: absolute;
-    top: 4.44rem;
-}
-
-.rencontrer-title {
-    background-color: red !important;
-}
-
 /*bouton envoyer*/
 .contact-form input.wpcf7-form-control.wpcf7-submit.has-spinner {
     display: flex;
