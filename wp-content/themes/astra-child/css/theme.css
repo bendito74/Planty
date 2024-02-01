@@ -77,3 +77,19 @@
     font-style: normal;
     font-weight: 700;
 }
+
+/******HOME******/
+
+/*permet de mettre le style du boutton commander dans la page home*/
+.elementor-button.elementor-size-md {
+    display: flex;
+    align-items: center;
+    width: 198px;
+    height: 55px;
+    padding: 9px 57px 9px 56px;
+}
+
+.e-con.e-flex>.e-con-inner {
+    display: flex;
+    align-items: center;
+}
