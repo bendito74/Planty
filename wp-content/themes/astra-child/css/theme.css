@@ -1,0 +1,31 @@
+/*****HEADER********/
+
+/*enlève des margin du header et ajoute un padding de 37px à gauche du logo */
+.ast-container {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 37px;
+    padding-right: 0px;
+}
+
+/*crée le bouton commander et centre le texte*/
+.ast-header-button-1[data-section*="section-hb-button-"] 
+.ast-builder-button-wrap 
+.ast-custom-button {
+    display: flex;
+    width: 236px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*change la couleur du bouton commander et du texte en hover*/
+.ast-custom-button:hover {
+    color: #ffff;
+    background-color: #C02E44;
+}
+
+/*enlève un padding sur la droite du bouton commander*/
+#masthead .ast-container {
+    padding-right: 0px;
+}
