@@ -58,3 +58,22 @@
     font-weight: 700 !important;
     line-height: normal !important;
 }
+
+/*******FOOTER******/
+
+/*change la couleur des mentions légales en fonction qu'on est hover ou non*/
+.ast-footer-copyright a {
+    color: #000;
+    font-family: Syne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.ast-footer-copyright a:hover {
+    color: #000;
+    font-family: Syne;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
