@@ -110,3 +110,60 @@
     position: absolute;
     top: 4.44rem;
 }
+
+.rencontrer-title {
+    background-color: red !important;
+}
+
+/*bouton envoyer*/
+.contact-form input.wpcf7-form-control.wpcf7-submit.has-spinner {
+    display: flex;
+    width: 198px;
+    height: 55px;
+    padding: 9px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #E0B9B4;
+}
+
+/*bouton envoyer hover*/
+.contact-form input.wpcf7-form-control.wpcf7-submit.has-spinner:hover {
+    background: #C02E44;
+}
+
+/*centrer le bouton envoyer*/
+.wpcf7 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*label formulaire*/
+.contact-form label {
+    color: #000;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*text-area nom et email*/
+.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    width: 383px;
+    height: 71px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+}
+
+/*text-area message*/
+.wpcf7-form-control.wpcf7-textarea {
+    width: 383px;
+    height: 237px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+}
