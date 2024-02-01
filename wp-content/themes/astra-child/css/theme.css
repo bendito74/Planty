@@ -420,3 +420,18 @@ input[type="number"]::-webkit-outer-spin-button {
             flex-shrink: 0;
         }
         }
+
+        .submit-btn {
+            display: flex;
+            align-items: center;
+            border-radius: 5px;
+            background: #E0B9B4;
+            margin-top: 20px;
+            width: 198px;
+            height: 55px;
+            padding: 9px 57px 9px 56px;
+        }
+        
+        .submit-btn:hover {
+            background-color: #C02E44;
+        }
