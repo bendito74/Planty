@@ -435,3 +435,39 @@ input[type="number"]::-webkit-outer-spin-button {
         .submit-btn:hover {
             background-color: #C02E44;
         }
+
+/**************Lien Admin************/
+
+.adminButton {
+    color: #000;
+    font-family: Syne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 30px 50px 30px 50px;
+}
+
+/*donne le style pour le lien Admin en hover et en visited*/
+.adminButton:hover {
+    color: #000 !important;
+    font-family: Syne !important;
+    font-size: 15px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: normal !important;
+    margin: 0 !important;
+    padding: 30px 50px 30px 50px !important;
+}
+
+.adminButton:visited {
+    color: #000 !important;
+    font-family: Syne !important;
+    font-size: 15px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important;
+    margin: 0 !important;
+    padding: 30px 50px 30px 50px !important;
+}
